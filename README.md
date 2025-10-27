@@ -4,6 +4,9 @@ A compile-time layout transformation library for C++23. This implements the CuTe
 
 The spec is defined in LayoutAlgebra.md
 
+[Original idea from NVIDIA CUTLASS documentation](https://docs.nvidia.com/cutlass/media/docs/cpp/cute/00_quickstart.html)
+[Nice reading on the topic here](https://research.colfax-intl.com/categorical-foundations-for-cute-layouts/)
+
 ## What it does
 
 Layout algebra provides operations on multi-dimensional index mappings:
