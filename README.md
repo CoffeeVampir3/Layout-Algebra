@@ -2,6 +2,8 @@
 
 A compile-time layout transformation library for C++23. This implements the CuTe layout algebra specification, enabling zero-cost abstractions for memory access patterns, tiling, and data format transformations.
 
+The spec is defined in LayoutAlgebra.md
+
 ## What it does
 
 Layout algebra provides operations on multi-dimensional index mappings:
