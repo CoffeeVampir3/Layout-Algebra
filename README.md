@@ -12,8 +12,6 @@ Layout algebra provides operations on multi-dimensional index mappings:
 - **Complement**: Find disjoint tiling offsets that cover remaining elements
 - **Coalesce**: Simplify layout representations by merging contiguous modes
 
-All operations execute at compile time using C++23 template metaprogramming. The library supports arbitrary rank tensors, nested tuple structures, and generates optimal code with no runtime overhead.
-
 ## Modules
 
 - `layoutalg.cppm`: Core layout algebra operations (composition, division, product, complement)
@@ -23,7 +21,7 @@ All operations execute at compile time using C++23 template metaprogramming. The
 
 ## Building
 
-Requires C++23 compiler with modules support (GCC 15+ or Clang 19+) and Ninja build system.
+Requires C++23 compiler with modules support (GCC 15+ or Clang 19+) and Ninja
 
 ```bash
 chmod +x build.sh
@@ -40,9 +38,3 @@ chmod +x build.fish
 ```
 
 The demo showcases basic layout operations, composition, tiling, and tensor access patterns.
-
-## Documentation
-
-- `LayoutAlgebra.md`: Complete specification of the layout algebra
-- `ModernCPPGuide.md`: C++23 style guidelines
-- `CPPModules.md`: C++ modules usage reference
