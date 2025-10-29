@@ -138,9 +138,6 @@ void tensor_demo() {
         std::print("{} ", t(i));
     }
     std::println("");
-
-    std::println("Same data, different layout interpretation");
-    std::println("");
 }
 
 int main() {
@@ -152,13 +149,5 @@ int main() {
     tiling_2d();
     coalesce_demo();
     tensor_demo();
-
-    std::println("=== Summary ===");
-    std::println("Layout algebra enables:");
-    std::println("  - Compile-time layout transformations (zero runtime cost)");
-    std::println("  - Tiling and blocking via division/product");
-    std::println("  - Memory access pattern optimization");
-    std::println("  - Hardware-specific format generation");
-
     return 0;
 }
